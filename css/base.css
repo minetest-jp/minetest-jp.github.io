@@ -17,6 +17,13 @@ body {
     text-shadow: 2px 2px 0px #939393, 4px 4px 0px #1c1c1c;
 }
 
+footer {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 3rem 0;
+    margin-top: 3rem
+}
+
 .container {
     max-width: 60%;
     text-align: center;

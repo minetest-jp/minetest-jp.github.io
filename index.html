@@ -47,18 +47,14 @@ layout: default
 
 	<section id="projects">
 	  <h2>Projects</h2>
-	  {% for repository in site.github.public_repositories %}
-	  {% if repository.name != site.github.project_title %}
-	  <h3><a href="{{ repository.html_url }}">{{ repository.name }}</a></h3>
-	  {% endif %}
-	  {% endfor %}
+	  <h3>Yamato</h3>
+	  <h3>Cuttingboard</h3>
 	</section>
 
 	<section id="members">
 	  <h2>Members</h2>
-	  {% for member in site.github.organization_members %}
-	  <h3><a href="{{ member.html_url }}">{{ member.login }}</a></h3>
-	  {% endfor %}
+	  <h3>Rui-Minetest</h3>
+	  <h3>tacigar</h3>
 	</section>
       </div>
     </div>

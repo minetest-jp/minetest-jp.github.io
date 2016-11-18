@@ -3,24 +3,26 @@ layout: default
 title: Blog
 ---
 
-<div class="blog-posts">
-  <section id="top">
-    <div class="jumbotron">
-      <h1>Blog</h1>
-    </div>
-  </section>
+<body>
+  <div class="blog-posts">
+    <section id="top">
+      <div class="jumbotron">
+	<h1>Blog</h1>
+      </div>
+    </section>
 
-  {% assign posts = site.categories.blog | sort:"date" | reverse %}
-  {% for post in posts %}
+    {% assign posts = site.categories.blog | sort:"date" | reverse %}
+    {% for post in posts %}
 
-  <div class="container">
-    <div class="entry">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="time">{{ post.date | date:'%B %-d, %Y' }}</p>
+    <div class="container">
+      <div class="entry">
+	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<p class="time">{{ post.date | date:'%B %-d, %Y' }}</p>
+      </div>
     </div>
+
+    {% endfor %}
+
   </div>
+</body>
 
-  {% endfor %}
-
-
-</div>

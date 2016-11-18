@@ -19,6 +19,15 @@ a:hover {
     color: black;
 }
 
+.blog-posts .jumbotron {
+    background-image: url("/img/jumbotron-blog-posts.png");
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    padding-top: 10vh;
+    color: #dddddd
+}
+
 .jumbotron h1 {
     text-align: center;
     font-weight: bolder;

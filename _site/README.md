@@ -1,1 +1,0 @@
-# minetest-jp.github.io
